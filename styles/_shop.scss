@@ -1,0 +1,23 @@
+#titulo-shop{
+    margin-top:10%;
+    }
+    
+    .conte-shop{
+        display: flex;
+        height:100%;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top:20px ;
+        .card-shop{
+            width:20%;
+            margin:10px;
+            background:#ffffff;
+            .img-shop{
+                position:relative;
+                margin:0px;
+                img{width:100%;
+                }
+            }
+        }
+    
+    }
