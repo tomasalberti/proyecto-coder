@@ -1,27 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Shrikhand&display=swap");
 #titulo-shop {
   margin-top: 10%;
 }
 
-.conte-shop {
+.conte-sections-shop {
   display: flex;
   height: 100%;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 20px;
-}
-.conte-shop .card-shop {
-  width: 20%;
   margin: 10px;
+  margin-top: 30px;
+}
+.conte-sections-shop .conte-shop {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  row-gap: 20px;
+}
+.conte-sections-shop .conte-shop .card-shop {
+  height: 100%;
+  margin: auto;
   background: #ffffff;
 }
-.conte-shop .card-shop .img-shop {
+.conte-sections-shop .conte-shop .card-shop .img-shop {
   position: relative;
   margin: 0px;
 }
-.conte-shop .card-shop .img-shop img {
+.conte-sections-shop .conte-shop .card-shop .img-shop img {
   width: 100%;
 }
 
+/*seccion shop tablet*/
+@media (min-width: 768px) {
+  #titulo-shop {
+    margin-top: 10%;
+  }
+
+  .conte-sections-shop {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    margin-top: 30px;
+  }
+  .conte-sections-shop .conte-shop {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    row-gap: 20px;
+  }
+  .conte-sections-shop .conte-shop .card-shop {
+    height: 100%;
+    margin: auto;
+    background: #ffffff;
+  }
+  .conte-sections-shop .conte-shop .card-shop .img-shop {
+    position: relative;
+    margin: 0px;
+  }
+  .conte-sections-shop .conte-shop .card-shop .img-shop img {
+    width: 100%;
+  }
+}
+/*seccion shop pc*/
+@media (min-width: 1024px) {
+  #titulo-shop {
+    margin-top: 10%;
+  }
+
+  .conte-sections-shop {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    margin-top: 30px;
+  }
+  .conte-sections-shop .conte-shop {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    row-gap: 20px;
+  }
+  .conte-sections-shop .conte-shop .card-shop {
+    height: 100%;
+    margin: auto;
+    background: #ffffff;
+  }
+  .conte-sections-shop .conte-shop .card-shop .img-shop {
+    position: relative;
+    margin: 0px;
+  }
+  .conte-sections-shop .conte-shop .card-shop .img-shop img {
+    width: 100%;
+  }
+}
 /*vista mobile*/
 footer {
   display: flex;
@@ -55,22 +138,26 @@ footer {
   font-size: 125%;
 }
 
+/*productos destacados*/
 h1 {
   text-align: center;
+  margin-bottom: 20%;
 }
 
-.conte-productos {
+.conte-principal {
   display: flex;
-  height: 100%;
-  flex-direction: row;
-  justify-content: space-around;
+  margin: 10%;
   margin-top: 30px;
 }
 
-.product-card {
-  width: 20%;
-  margin: 50px auto;
-  background: #ffffff;
+.conte-productos {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 20px;
 }
 
 .product-card .img-product {
@@ -135,6 +222,50 @@ span .price {
   gap: 10px;
 }
 
+/*productos destacados tablet*/
+@media (min-width: 768px) {
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .conte-principal {
+    display: flex;
+    margin: 10%;
+  }
+
+  .conte-productos {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    row-gap: 20px;
+  }
+}
+/*productos destacados pc*/
+@media (min-width: 1024px) {
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .conte-principal {
+    display: flex;
+    margin: 10%;
+  }
+
+  .conte-productos {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    row-gap: 20px;
+  }
+}
 /*vista mobile */
 .conte-section-home {
   display: flex;
