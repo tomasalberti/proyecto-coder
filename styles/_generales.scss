@@ -38,11 +38,6 @@ footer{
 
 
 
-#textnavHome{
-
-    color: rgb(116, 116, 116);
-    font-size:125% ;
-}
 
 h1{
   text-align:center;
@@ -54,6 +49,7 @@ h1{
 
 .conte-productos{
     display: flex;
+   
     height:100%;
     flex-direction: row;
     justify-content: space-around;
