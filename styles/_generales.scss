@@ -57,7 +57,7 @@ margin-top:30px ;
   display: grid;
   grid-template-columns: repeat(1,1fr);
   column-gap:20px;
-  row-gap:20px ;
+  row-gap:40px ;
   
 }
  .product-card .img-product{
@@ -129,7 +129,7 @@ margin-top:30px ;
       display: grid;
       grid-template-columns: repeat(2,1fr);
       column-gap:20px;
-      row-gap:20px ;
+      row-gap:50px ;
     }
 }
 /*productos destacados pc*/
@@ -148,6 +148,6 @@ margin-top:30px ;
       display: grid;
       grid-template-columns: repeat(4,1fr);
       column-gap:20px;
-      row-gap:20px ;
+      row-gap:70px ;
     }
 }
