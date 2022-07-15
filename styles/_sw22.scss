@@ -1,0 +1,141 @@
+.color_winter{
+    background-color: black;
+}
+
+.portada{
+    width: 100vw;
+    height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: linear-gradient(to right,rgb(0 0 0 / .3),rgb(0 0 0 / .5)), url(../img/portada.gif);;
+    background-size: cover;
+    background-position: center;
+    .text_portada{
+        color: #fff;
+        text-align: center;
+        width: 50%;
+    }
+}
+
+.produ_w1{
+    margin:5%;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    .imgW1{ 
+        grid-area: 1 / 1 / 2 / 2;
+        position:relative;
+        margin:0px;
+        
+        img{
+            width: 100%;
+        }
+     }
+    .textoW1{
+         grid-area: 1 / 2 / 2 / 3;
+         color: #fff; 
+         text-align: center;
+         width: 100%;
+         
+        }
+
+    }
+
+.produ_w2{
+    margin:5%;
+    margin-top:10% ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    .imgW2{ 
+        grid-area: 1 / 2 / 2 / 3;
+        position:relative;
+        margin:0px;
+        
+        img{
+            width: 100%;
+        }
+     }
+    .textoW2{
+        grid-area: 1 / 1 / 2 / 2;
+         color: #fff; 
+         text-align: center;
+         
+        }
+
+    }
+
+
+/*pc*/
+@media (min-width:1024px){
+.produ_w1{
+    margin:5%;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    .imgW1{ 
+        grid-area: 1 / 1 / 2 / 2;
+        position:relative;
+        margin:0px;
+        width: 30vw;
+        height: 70vh;
+        img{
+            width: 100%;
+        }
+     }
+    .textoW1{
+         grid-area: 1 / 2 / 2 / 3;
+         color: #fff; 
+         text-align: center;
+         
+        }
+
+    }
+
+.produ_w2{
+    margin:5%;
+    margin-top:10% ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    .imgW2{ 
+        grid-area: 1 / 2 / 2 / 3;
+        position:relative;
+        margin:0px;
+        width: 30vw;
+        height: 70vh;
+        img{
+            width: 100%;
+        }
+     }
+    .textoW2{
+        grid-area: 1 / 1 / 2 / 2;
+         color: #fff; 
+         text-align: center;
+         
+        }
+
+    }
+}
+
+    #color-text{
+        color: #fff;
+    }
+    #price-color{
+        color: #fff;
+    }
+    .product-card{
+        margin-top: 40%;
+    }
