@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&family=Fascinate+Inline&display=swap");
 #titulo-shop {
   margin-top: 10%;
 }
@@ -332,6 +334,10 @@ span .price {
   color: #fff;
   text-align: center;
   width: 50%;
+  font-family: "DotGothic16", sans-serif;
+}
+.portada .text_portada h1 {
+  font-size: 7vh;
 }
 
 .conte_presentacion {
@@ -361,6 +367,7 @@ span .price {
   text-align: center;
   width: 100%;
   font-size: 12px;
+  font-family: "Fascinate Inline", cursive;
 }
 
 .produ_w2 {
@@ -385,6 +392,7 @@ span .price {
   color: #fff;
   text-align: center;
   font-size: 12px;
+  font-family: "Fascinate Inline", cursive;
 }
 
 /*tablet*/
@@ -473,6 +481,9 @@ span .price {
     text-align: center;
     margin-top: 25%;
   }
+  .produ_w1 .textoW1 h2 {
+    font-size: 8vh;
+  }
   .produ_w2 {
     margin: 5%;
     margin-top: 10%;
@@ -497,6 +508,9 @@ span .price {
     color: #fff;
     text-align: center;
     margin-top: 25%;
+  }
+  .produ_w2 .textoW2 h2 {
+    font-size: 8vh;
   }
 }
 #color-text {
