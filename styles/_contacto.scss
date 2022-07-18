@@ -1,0 +1,237 @@
+.conte-presentacion{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .img-contacto{ 
+        grid-area: 1;
+        max-width: 80%;
+        
+        img{
+            margin-left:14% ;
+            margin-bottom: 10%;
+           width: 100%;
+          
+        } 
+    }
+
+    .texto-contacto{
+         grid-area: 2;
+         p{
+            margin-top: 15px;
+         }
+     }
+
+
+
+
+ .conte-presentacion2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-top:15vh ;
+        }
+        
+        .img-contacto2{
+            grid-area: 1;
+             max-width: 80%;
+             img{
+               width: 100%;
+               margin-left: 16%;
+               margin-bottom: 10%;
+               margin-top: 55px;
+            } 
+         }
+        .texto-contacto2{ 
+            grid-area: 2;
+
+            h2{
+              display: flex;
+              justify-content: center;
+            }
+
+            p{
+                margin-top: 15px;
+             }
+             .subrayado{
+                background-color: black;
+                height: 2px;
+             }
+        }
+
+
+
+    .who-are-you{
+        display: flex;
+        flex-wrap:wrap;
+        margin: 10%;
+        margin-top:80px;
+        
+    }
+
+@media(min-width:768px){
+    .conte-presentacion{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .img-contacto{ 
+            grid-area: 1;
+            max-width: 80%;
+            
+            img{
+                margin-left:14% ;
+                margin-bottom: 10%;
+               width: 100%;
+              
+            } 
+        }
+    
+        .texto-contacto{
+             grid-area: 2;
+             p{
+                margin-top: 15px;
+             }
+         }
+    
+    
+    
+    
+     .conte-presentacion2{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            margin-top:15vh ;
+            }
+            
+            .img-contacto2{
+                grid-area: 2;
+                 max-width: 80%;
+                 img{
+                   width: 100%;
+                   margin-left: 16%;
+                   margin-bottom: 10%;
+                   margin-top: 55px;
+                } 
+             }
+            .texto-contacto2{ 
+                grid-area: 1;
+
+                h2{
+                  display: flex;
+                  justify-content: center;
+                }
+
+                p{
+                    margin-top: 15px;
+                 }
+                 .subrayado{
+                    background-color: black;
+                    height: 2px;
+                 }
+            }
+    
+    
+    
+        .who-are-you{
+            display: flex;
+            flex-wrap:wrap;
+            margin: 10%;
+            margin-top:80px;
+            
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1024px){
+.conte-presentacion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .img-contacto{ 
+        grid-area: 1 / 1 / 2 / 2;
+        max-width: 80%;
+        img{
+           width: 100%;
+           margin-left: 20%;
+        } 
+    }
+
+    .texto-contacto{
+         grid-area: 1 / 2 / 2 / 3;
+         p{
+            margin-top: 15px;
+         }
+     }
+
+
+
+
+ .conte-presentacion2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-top:15vh ;
+        }
+        
+        .img-contacto2{
+             grid-area: 1 / 2 / 2 / 3; 
+             max-width: 80%;
+             img{
+               width: 100%;
+               margin-left: 20%;
+               margin-top: 55px;
+            } 
+         }
+        .texto-contacto2{ grid-area: 1 / 1 / 2 / 2; 
+            p{
+                margin-top: 15px;
+             }
+             .subrayado{
+                background-color: black;
+                height: 2px;
+             }
+        }
+
+
+
+    .who-are-you{
+        display: flex;
+        flex-wrap:wrap;
+        margin: 10%;
+        margin-top:80px;
+        
+    }
+}

@@ -1,16 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Shrikhand&display=swap');
+*{
+  margin: 0;
+  padding:0; 
 
+}
+.pie-winter{
+  background-color: #e0e0e0;
+  p{
+    color: #131313;
+  }
+}
 footer{
     display: flex;
+    justify-content: center;
     margin-top:50vh;
     background-color: black;
+    p{
+      margin-top: 10px;
+      color: #e4e4e4;
+      font-size: small;
+    }
 }
 
-*{
-    margin: 0;
-    padding:0; 
-
+.icono{
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  right:5%;
+  bottom:10%;
+  z-index: 1;
+ img{
+  width: 100%;
+ }
+  
 }
+
 .colorNav{
     background-color: rgb(0, 0, 0);
     padding-top:30px;
