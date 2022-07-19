@@ -3,6 +3,10 @@
   
   
   
+  #titulo-shop{
+    margin-top:0vh;
+    margin-bottom: 0vh;
+ }
  
  .conte-sections-shop{
      display: flex;
@@ -36,7 +40,8 @@
 
   @media (min-width:768px){  
     #titulo-shop{
-       margin-top:10%;
+       margin-top:0%;
+       
     }
     
     .conte-sections-shop{
@@ -71,7 +76,7 @@
 /*seccion shop pc*/
 @media (min-width:1024px){  
     #titulo-shop{
-       margin-top:10%;
+       margin-top:0%;
     }
     
     .conte-sections-shop{

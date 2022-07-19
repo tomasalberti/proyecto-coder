@@ -7,6 +7,14 @@
   padding:0; 
 
 }
+
+.subrayado-sup{
+  background-color: #131313;
+  height: 2px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top:5vh ;
+}
 .pie-winter{
   background-color: #e0e0e0;
   p{
@@ -158,6 +166,7 @@ margin-top:30px ;
   .conte-principal{
     display: flex;
     margin: 10%;
+    margin-top: 10px;
     }
     .conte-productos{
       width: 100%;
